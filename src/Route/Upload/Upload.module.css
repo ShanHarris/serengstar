@@ -1,0 +1,321 @@
+.upload{
+    position: relative;
+    top: 20vh;
+}
+
+
+.uploadTitle, .orTitle{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.orTitle{
+    position: relative;
+    margin-top: 30px;
+}
+
+
+.online{
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.uploadImg{
+    position: relative;
+    height: 470px;
+    width: 350px;
+}
+
+.form{
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    background-color: #5c7659;
+    color: #fff;
+}
+
+input{
+    width: 150px;
+    height: 20px;
+}
+
+label{
+    width: 150px;
+}
+
+.button{
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.send{
+    display: flex;
+    justify-content: center;
+}
+
+.whatsapp{
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+    background-color: #EFEFEF;
+    margin-bottom: 30px;
+}
+
+.sendWhat{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.man{
+    position: relative;
+    height: 400px;
+    width: 250px;
+}
+
+.sendWhat div{
+    margin-top: 40px;
+}
+
+.here{
+    font-size: 1.5rem;
+}
+
+.number{
+    color: #008001;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.progress{
+    position: relative;
+    margin-top: 10px;
+    width: 100px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .upload{
+        top: 10vh;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .uploadImg{
+        position: relative;
+        height: 420px;
+        width: 290px;
+    }
+
+    .form{
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 290px;
+        background-color: #5c7659;
+        color: #fff;
+        line-height: 1rem;
+    }
+
+    .whatsapp{
+        width: 580px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .online{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .uploadImg{
+        height: 370px;
+        width: 480px;
+    }
+
+    .form{
+        height: 420px;
+        width: 480px;
+    }
+
+    .uploadImg, .form{
+        border-radius: 12px;
+        margin: 3px;
+    }
+
+    .whatsapp{
+        width: 480px;
+        border-radius: 20px;
+    }
+
+    .icon{
+        height: 70px;
+        width: 70px;
+    }
+
+    .here{
+        font-size: 1.2rem;
+    }
+
+    .number{
+        font-size: 1.5rem;
+    }
+
+    .sendWhat{
+        position: relative;
+        right: 30px;
+    }
+
+    .man{
+        height: 300px;
+        margin-top: 45px;
+        right: 5px;
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .uploadImg{
+        height: 430px;
+        width: 430px;
+    }
+
+    .form{
+        height: 430px;
+        width: 430px;
+    }
+
+
+    .whatsapp{
+        width: 430px;
+    }
+
+    .man{
+        left: 5px;
+        margin-top: 45px;
+    }
+
+    .here{
+        text-align: center;
+    }
+
+    .number{
+        font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .uploadImg{
+        height: 350px;
+        width: 390px;
+    }
+
+    .form{
+        width: 390px;
+    }
+
+    .man{
+        width: 180px;
+    }
+
+    .whatsapp{
+        width: 390px;
+    }
+
+    .here, .number{
+        width: 200px;
+        left: 40px;
+
+    }
+
+    .sendWhat{
+        position: relative;
+        right: 10px;
+    }
+
+    .number{
+        position: relative;
+        left: 20px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    .uploadImg{
+        height: 260px;
+        width: 370px;
+    }
+
+    .form{
+        width: 370px;
+    }
+
+    .whatsapp{
+        width: 370px;
+    }
+
+    .man{
+        width: 150px;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+    .uploadImg{
+        height: 260px;
+        width: 340px;
+    }
+
+    .form{
+        width: 340px;
+    }
+
+    .whatsapp{
+        width: 340px;
+    }
+
+    .man{
+        height: 270px;
+        width: 130px;
+        margin-top: 75px;
+    }
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.startSoon{
+    position: relative;
+    top: 15vh;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.register{
+    font-size: 2rem;
+    font-family: 'Comfortaa', sans-serif;
+    color: #218c74;
+    text-align: center;
+    padding: 20px;
+    line-height: 2.5rem;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .startSoon{
+        flex-direction: column;
+    }
+
+    .waiting{
+        margin-bottom: 150px;
+    }
+
+    .register{
+        position: relative;
+        bottom: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .waiting{
+        height: 300px;
+        width: 350px;
+        margin-bottom: 120px;
+    }
+
+    .register{
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .waiting{
+        height: 250px;
+        width: 300px;
+    }
+}

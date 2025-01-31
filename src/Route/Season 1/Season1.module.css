@@ -1,0 +1,286 @@
+.season1{
+    position: relative;
+    top: 20vh;
+}
+
+.judges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.judgesTitle{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.judgeContent{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    position: relative;
+    margin-top: 20px;
+    line-height: 1.5rem;
+}
+
+.judge{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+.judgeImg{
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 16px;
+}
+
+.judgeNames{
+    display: flex;
+    justify-content: center;
+}
+
+.judgeNames span{
+    margin: 10px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+
+.winnerTitle{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.trophy{
+    height: 100px;
+    width: 100px;
+}
+
+.winnerHello{
+    position: relative;
+    top: 40px;
+}
+
+.winners{
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.winnerImg{
+    height: 320px;
+    width: 250px;
+    margin: 20px;
+}
+
+
+
+
+.top13Title{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.top13Images{
+    position: relative;
+    margin-top: 35px;
+}
+
+.four{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+}
+
+.image{
+    height: 220px;
+    width: 270px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1400px) {
+        .four{
+            grid-template-columns: auto auto auto auto;
+        }
+}
+
+
+@media only screen and (max-width: 1100px) {
+        .four{
+            grid-template-columns: auto auto auto;
+        }
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .season1{
+        top: 10vh;
+    }
+
+    .four{
+        grid-template-columns: auto auto;
+    }
+
+    .winners{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .top13Title{
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .judgeContent{
+        width: 590px;
+    }
+
+}
+
+
+@media only screen and (max-width: 650px) {
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .judgeImg{
+        width: 200px;
+        height: 250px;
+    }
+
+    .judgeContent{
+        width: 480px;
+    }
+
+    .image{
+        height: 220px;
+        width: 220px;
+    }
+
+    .judgeNames span{
+        width: 220px;
+    }
+
+    .winners{
+        grid-template-columns: auto;
+    }
+
+    .winnerImg{
+        margin: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .image{
+        height: 190px;
+        width: 190px;
+    }
+
+    .judgeImg{
+        height: 220px;
+        width: 170px;
+    }
+
+    .judgeContent{
+        width: 390px;
+    }
+
+    .judgeNames span{
+        width: 170px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+    .image{
+        height: 170px;
+        width: 170px;
+    }
+
+    .judgeContent{
+        width: 370px;
+    }
+
+    .judgeImg{
+        width: 170px;
+    }
+
+
+}
+
+@media only screen and (max-width: 380px) {
+    .judgeContent{
+        width: 370px;
+    }
+
+    .judgeNames span{
+        width: 160px;
+    }
+
+    .judgeImg{
+        width: 160px;
+        height: 200px;
+    }
+
+    .judgeContent{
+        width: 350px;
+    }
+}

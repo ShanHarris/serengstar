@@ -1,0 +1,25 @@
+.overlay{
+    background-color: #ffffff;
+    height: 99vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.listItem{
+    position: relative;
+    width: 100vw;
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    font-family: 'Narnoor', serif;
+}
+
+.listText{
+    color: #000;
+}
+
+.phoneLink{
+    text-decoration: none;
+}

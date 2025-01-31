@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+
+
+
+.about{
+    position: relative;
+    top: 20vh;
+}
+
+.aboutTitle{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.intro{
+    position: relative;
+    margin-top: 20px;
+    height: 380px;
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    width: 600px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.serengText{
+    background: linear-gradient(to right, #396771 0%, #2e2e2e 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.big{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10px;
+    background: linear-gradient(to right, #454545 0%, #555555 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+.missionTitle{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper{
+    margin-top: 30px;
+}
+
+.upper, .middle{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.last{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 400px;
+    height: 230px;
+    margin: 23px;
+    padding: 15px;
+    color: #fff;
+    border-radius: 15px;
+    background-image: linear-gradient(to top, #1c3555 0%, #537895 100%);
+}
+
+.missions, .desc{
+    position: relative;
+    margin-top: 30px;
+}
+
+.missions{
+    font-size: 1.7rem;
+}
+
+.desc{
+    font-size: 1.2rem;
+    color: #e1e1e1;
+}
+
+
+.teamTitle{
+        font-family: 'Sofia Sans Condensed', sans-serif;
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+}
+
+
+.teamImages{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+
+.member{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 20px;
+    height: 350px;
+    width: 250px;
+    border-radius: 200px;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    cursor: pointer;
+    transition: all 0.3s linear;
+    z-index: 0;
+}
+
+
+.image{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    transition: all 0.3s linear;
+    bottom: 0px;
+}
+
+.member:hover .image{
+    bottom: 100px;
+}
+
+.member:hover .memberInfo{
+    bottom: -220px;
+}
+
+.memberInfo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    transition: all 0.3s linear;
+    z-index: -1;
+}
+
+.memberInfo span{
+    margin: 5px;
+    transition: all 0.3s linear;
+}
+
+.name{
+    font-size: 1.1rem;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+
+.designation{
+    color: #d8d8d8;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .member{
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .member{
+        margin: 10px;
+        height: 330px;
+        width: 220px;
+        border-radius: 200px;
+    }
+    
+    .image{
+        height: 220px;
+        width: 220px;
+    }
+
+
+    .member:hover .image{
+        bottom: 110px;
+    }
+    
+    .member:hover .memberInfo{
+        bottom: -190px;
+    }
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    .card{
+        width: 350px;
+        height: 250px;
+        margin: 15px;
+        padding: 15px;
+        color: #fff;
+    }
+
+    .missions, .desc{
+        position: relative;
+        margin-top: 27px;
+    }
+
+    .teamImages{
+        grid-template-columns: auto auto auto;
+    }
+
+    .member{
+        margin: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .about{
+        top: 10vh;
+    }
+
+    .card{
+        width: 300px;
+        height: 280px;
+        margin: 7px;
+        padding: 15px;
+        color: #fff;
+    }
+
+    .missions, .desc{
+        position: relative;
+        margin-top: 27px;
+    }
+
+    .teamTitle{
+        margin-top: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .member{
+        margin: 7px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .info{
+        width: 500px;
+    }
+
+    .upper, .middle{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 400px;
+        height: 250px;
+        margin: 7px;
+        padding: 15px;
+        color: #fff;
+    }
+
+    .missions, .desc{
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .teamImages{
+        grid-template-columns: auto auto;
+    }
+
+    .member{
+        margin: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .info{
+        width: 400px;
+    }
+
+    .serengText{
+        font-size: 2.2rem;
+    }
+
+    .big{
+        font-size: 1.7rem;
+    }
+
+    .member{
+        margin: 10px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .info{
+        width: 350px;
+    }
+
+    .card{
+        width: 350px;
+        height: 250px;
+        margin: 7px;
+        padding: 15px;
+        color: #fff;
+    }
+
+
+    .member{
+        margin: 10px;
+        height: 300px;
+        width: 200px;
+        border-radius: 200px;
+    }
+    
+    .image{
+        height: 200px;
+        width: 200px;
+    }
+
+    .member{
+        margin: 5px;
+    }
+
+
+    .member:hover .image{
+        bottom: 100px;
+    }
+    
+    .member:hover .memberInfo{
+        bottom: -180px;
+    }
+
+}
+
+
+@media only screen and (max-width: 450px) {
+    .member{
+        margin: 10px;
+        height: 270px;
+        width: 180px;
+        border-radius: 200px;
+    }
+    
+    .image{
+        height: 180px;
+        width: 180px;
+    }
+
+    .member{
+        margin: 5px;
+    }
+
+    .name{
+        font-size: 1rem;
+    }
+
+    .member:hover .image{
+        bottom: 90px;
+    }
+    
+    .member:hover .memberInfo{
+        bottom: -155px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .card{
+        width: 300px;
+        height: 300px;
+        margin: 7px;
+        padding: 15px;
+        color: #fff;
+    }
+
+    .member{
+        margin: 10px;
+        height: 270px;
+        width: 170px;
+        border-radius: 200px;
+    }
+    
+    .image{
+        height: 170px;
+        width: 170px;
+    }
+
+    .member{
+        margin: 5px;
+    }
+
+    .memberInfo{
+        bottom: 7px;
+    }
+
+    .member:hover .image{
+        bottom: 100px;
+    }
+    
+    .member:hover .memberInfo{
+        bottom: -145px;
+    }
+
+}

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Kay+Pho+Du:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+
+
+.numberCounter{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.data{
+    position: relative;
+    padding: 40px;
+    margin-top: 20px;
+    width: 600px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #DCD9D4;
+ background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+ background-blend-mode: soft-light,screen;
+}
+
+
+.summaryTitle{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.counter{
+    position: relative;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.participants, .country{
+    height: 30px;
+    align-items: center;
+    border-radius: 50px;
+    font-family: 'Kay Pho Du', serif;
+    font-size: 1.5rem;
+    color: #a49100;
+}
+
+.three, .twoHundred{
+    font-family: 'Yatra+One', serif;
+    font-size: 4rem;
+    position: relative;
+}
+
+.twoHundred{
+    margin-left: 30px;
+}
+
+.participants, .country{
+    position: relative;
+    top: 45px;
+}
+
+.three{
+    color: #969696;
+}
+
+.twoHundred{
+    color: #969696;
+}
+
+.socialCount{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.views{
+    position: relative;
+    font-family: 'Yatra+One', serif;
+    font-size: 4rem;
+    color: #969696;
+}
+
+.viewsCount{
+    align-items: center;
+    font-family: 'Kay Pho Du', serif;
+    font-size: 1.5rem;
+    position: relative;
+    top: 42px;
+    color: #a49100;
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .data{
+        width: 490px;
+        height: 170px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .data{
+        width: 390px;
+        height: 160px;
+        padding: 45px;
+    }
+
+    .socialCount{
+        top: 3px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .data{
+        width: 350px;
+        height: 160px;
+    }
+
+    .three, .twoHundred, .views{
+        font-size: 3.2rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .data{
+        width: 320px;
+        height: 160px;
+        padding: 40px;
+    }
+
+    .three, .twoHundred, .views{
+        font-size: 3rem;
+    }
+
+    .participants, .country, .viewsCount{
+        top: 32px;
+    }
+
+    .three, .participants{
+        left: 10px;
+    }
+
+    .twoHundred, .country{
+        right: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    .data{
+        width: 320px;
+        height: 160px;
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .data{
+       padding: 20px;
+       width: 307px;
+    }
+
+    .participants, .country{
+        top: 27px;
+    }
+
+    .participants, .three{
+        left: 10px;
+    }
+
+    .twoHundred, .country{
+        right: 10px;
+    }
+
+    .views{
+        top: 22px;
+    }
+
+    .viewsCount{
+        top: 47px;
+    }
+
+    .three, .twoHundred, .views{
+        font-size: 2.2rem;
+    }
+
+
+
+}

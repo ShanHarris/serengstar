@@ -1,0 +1,80 @@
+.footer{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .social{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footerSpan{
+    position: relative;
+    height: 50px;
+    top: 150px;
+  }
+  
+  .social1{
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  .iconFooter{
+    position: relative;
+    height: 250px;
+    width: 250px;
+  }
+  
+
+  @media only screen and (max-width: 900px) {
+    .iconFooter{
+        position: relative;
+        height: 200px;
+        width: 200px;
+      }
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    .iconFooter{
+        position: relative;
+        height: 210px;
+        width: 210px;
+      }
+    
+      .social1{
+        margin: 10px;
+        cursor: pointer;
+      }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .iconFooter{
+        position: relative;
+        height: 170px;
+        width: 170px;
+      }
+  
+      .footerSpan{
+        top: 100px;
+      }
+  
+      .social1{
+        margin: 5px;
+      }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .iconFooter{
+      position: relative;
+      height: 150px;
+      width: 150px;
+    }
+
+    .social1{
+      margin: 2px;
+    }
+
+  }

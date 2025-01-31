@@ -1,0 +1,1219 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bitter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+
+/* judges */
+
+.home{
+  position: relative;
+  top: 15vh;
+}
+
+/* Hero */
+
+
+/* Season 2 */
+
+.season2 {
+  position: relative;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.centerDiv{
+  height: 200px;
+  width: 70vw;
+  /* background-color: #7f8fa6; */
+  background: #cef2b5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #135058, #bcdf9c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #135058, #95d0a4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.leftName{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 4rem;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+  color: #f3eee9;
+}
+
+.rightDesc{
+  width: 50%;
+  text-align: center;
+  line-height: 2rem;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+
+
+
+/* judges */
+
+.judges{
+  position: relative;
+  top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.meet{
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-size: 2.5rem;
+}
+
+.judge1, .judge2{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+}
+
+.season2Judges{
+  position: relative;
+  top: 50px;
+}
+
+.judge2{
+  bottom: 100px;
+}
+
+.judgeOne, .judgeTwo{
+  width: 220px;
+  border-radius: 200px;
+}
+
+.judgeDetails1, .judgeDetails2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 30px;
+  justify-content: center;
+}
+
+.judgeDetails1{
+  right: 60px;
+  bottom: 50px;
+}
+
+.judgeDetails2{
+  left: 60px;
+  top: 50px;
+}
+
+.judgeName{
+  font-family: 'Pangolin', cursive;
+  font-size: 1.5rem;
+}
+
+
+/* summary */
+
+.summary{
+  position: relative;
+  margin-top: 95px;
+}
+
+/* what's new */
+
+
+.new{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.what{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+
+.newTitle{
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-size: 2.5rem;
+}
+
+.new1, .new2, .new3, .new4, .new5{
+  position: relative;
+  height: 330px;
+  width: 230px;
+  background-color: thistle;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  text-align: center;
+}
+
+.new1:hover, .new2:hover, .new3:hover, .new4:hover, .new5:hover{
+  transform: rotate(0deg);
+  transition: all 0.2s linear;
+}
+
+.new1 div, .new2 div, .new3 div, .new4 div, .new5 div{
+  font-family: 'Bitter', serif;
+  font-size: 1.5rem;
+  margin-top: 35px;
+  margin-left: 0px;
+}
+
+.new1{
+  background-color: #dcb43d;
+  transform: rotate(7deg);
+}
+
+.new2{
+  background-color: #95afc0;
+  top: 80px;
+  transform: rotate(-7deg);
+}
+
+.new3{
+  background-color: #F6C9B5;
+  transform: rotate(7deg);
+}
+
+.new4{
+  background-color: #599092;
+  top: 80px;
+  transform: rotate(-7deg);
+}
+
+.new5{
+  background-color: #b484a3;
+  transform: rotate(7deg);
+}
+
+.newImage{
+  height: 150px;
+  width: 200px;
+  position: relative;
+  bottom: 20px;
+  border-radius: 7px;
+} 
+
+/* how to participate */
+
+
+.how{
+  position: relative;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.howTitle{
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-size: 2.5rem;
+}
+
+.steps{
+  position: relative;
+  margin-top: 20px;
+  background-image: linear-gradient(135deg, #f3eee9 0%, #e2d1c3 100%);
+  /* background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%); */
+  
+  /* background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+ background-blend-mode: normal,color-burn; */
+}
+
+.step1, .step2{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.stepOne, .stepTwo{
+  position: relative;
+  width: 400px;
+  font-family: 'Arvo', serif;
+  line-height: 25px;
+}
+
+.stepOne{
+  left: 100px;
+}
+
+.stepTwo{
+  right: 100px;
+}
+
+.step1Span, .step2Span{
+  position: relative;
+  font-size: 1.6rem;
+  bottom: 20px;
+  font-family: 'Arvo', serif;
+}
+
+
+.how1, .how2{
+  height: 300px;
+  width: 250px;
+}
+
+/* rules and regulation */
+
+.rAndR{
+  position: relative;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rulesTitle{
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-size: 2.5rem;
+}
+
+.rules{
+  position: relative;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100vw;
+}
+
+.r{
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rTitle{
+  position: relative;
+  margin-top: 30px;
+  font-family: 'Bitter', serif;
+  width: 300px;
+  text-align: center;
+}
+
+.star{
+  height: 30px;
+  width: 30px;
+}
+
+
+
+/* rewards */
+
+
+
+.rewards{
+  position: relative;
+  margin-top: 50px;
+}
+
+
+.rewardsTitle{
+  display: flex;
+  justify-content: center;
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-size: 2.5rem;
+}
+
+.rewardsImages{
+  position: relative;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.win{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 20px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.win:hover{
+  transform: scale(1.05);
+}
+
+
+
+/* season 1 highlight */
+
+.highlight{
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlightTitle{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 2.5rem;
+}
+
+.highlightVideo{
+  position: relative;
+  margin-top: 30px;
+  width: 700px;
+  height: 380px;
+}
+
+
+/* supporters */
+
+.supporters{
+  position: relative;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.supportersTitle{
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-size: 2.5rem;
+}
+
+.supportersDesc{
+  position: relative;
+  margin-top: 20px;
+  width: 600px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.supporterBackground{
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background-color: rgb(239, 239, 239);
+}
+
+.supporter{
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.supporterImage{
+  height: 220px;
+  width: 180px;
+  margin: 8px;
+  border-radius: 16px;
+}
+
+/* Sponsors */
+
+
+.sponsors{
+  height: auto;
+  width: 100vw;
+  background-color: #0F0E0D;
+  margin-top: 40px;
+}
+
+
+
+.sponsor{
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.sponsor1{
+  height: 100px;
+  width: 280px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2rem;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.sponsor1:hover{
+  transform: scale(1.02);
+}
+
+
+.sponsorsTitle{
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1400px) {
+  .win{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 12px;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+  .new1, .new2, .new3, .new4, .new5{
+    height: 310px;
+    width: 210px;
+  }
+
+  .new1 div, .new2 div, .new3 div, .new4 div, .new5 div{
+    font-family: 'Bitter', serif;
+    font-size: 1.3rem;
+    margin-top: 35px;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+  .new1, .new2, .new3, .new4, .new5{
+    height: 290px;
+    width: 190px;
+  }
+
+  .new1 div, .new2 div, .new3 div, .new4 div, .new5 div{
+    font-family: 'Bitter', serif;
+    font-size: 1.2rem;
+    margin-top: 35px;
+  }
+
+  .newImage{
+    height: 130px;
+    width: 170px;
+    position: relative;
+    bottom: 20px;
+    border-radius: 7px;
+  }
+
+  .rules{
+    grid-template-columns: auto auto;
+  }
+
+
+  /* Rewards */
+
+
+  .rewards{
+    margin-top: 30px;
+  }
+
+  .rewardsImages{
+    grid-template-columns: auto auto auto;
+  }
+
+  .win{
+    height: 215px;
+    width: 215px;
+    margin: 5px;
+  }
+
+  /* season 2 */
+
+  .centerDiv{
+    flex-direction: column;
+    height: 300px;
+    width: 800px;
+  }
+  
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+
+  .new1, .new2, .new3, .new4, .new5{
+    height: 260px;
+    width: 170px;
+  }
+
+  .new1 div, .new2 div, .new3 div, .new4 div, .new5 div{
+    font-family: 'Bitter', serif;
+    font-size: 1.1rem;
+  }
+
+  .newImage{
+    height: 130px;
+    width: 150px;
+    position: relative;
+    bottom: 20px;
+    border-radius: 7px;
+  }
+
+
+  .sponsor{
+    grid-template-columns: auto auto;
+  }
+
+  
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+  .home{
+    position: relative;
+    top: 3vh;
+  }
+
+  /* hero */
+
+
+  .finalName{
+    font-size: 3.5rem;
+  }
+
+
+  .new{
+    margin-top: 50px;
+  }
+
+
+  .what{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 30px;
+  }
+
+
+  .new1, .new2, .new3, .new4, .new5{
+    position: relative;
+    height: 330px;
+    width: 230px;
+    background-color: thistle;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+  }
+
+  .newImage{
+    height: 150px;
+    width: 200px;
+    position: relative;
+    bottom: 20px;
+    border-radius: 7px;
+  }
+  
+  .new1 div, .new2 div, .new3 div, .new4 div, .new5 div{
+    font-family: 'Bitter', serif;
+    font-size: 1.5rem;
+    margin-top: 35px;
+  }
+  
+  .new1{
+    background-color: #dcb43d;
+    transform: rotate(0deg);
+  }
+  
+  .new2{
+    background-color: #95afc0;
+    top: 80px;
+    transform: rotate(0deg);
+  }
+  
+  .new3{
+    background-color: #F6C9B5;
+    transform: rotate(0deg);
+  }
+  
+  .new4{
+    background-color: #599092;
+    top: 80px;
+    transform: rotate(0deg);
+  }
+  
+  .new5{
+    background-color: #b484a3;
+    transform: rotate(0deg);
+  }
+
+
+  .new3{
+    bottom: 20px;
+  }
+
+  .new4{
+    top: 60px;
+  }
+
+  .new5{
+    bottom: 40px;
+  }
+
+
+  .how{
+    margin-top: 10px;
+  }
+
+  .stepOne, .stepTwo{
+    width: 300px;
+  }
+
+  .stepOne{
+    left: 60px;
+  }
+  
+  .stepTwo{
+    right: 60px;
+  }
+
+  .rAndR{
+    margin-top: 50px;
+  }
+
+  /* highlight video */
+
+  .highlight{
+    margin-top: 30px;
+  }
+
+  .highlightVideo{
+    width: 500px;
+    height: 280px;
+  }
+
+
+  /* supporters */
+
+  .supporters{
+    margin-top: 40px;
+  }
+
+  /* sponsors */
+
+
+  
+
+  /* footer */
+
+
+  /* season 2 */
+
+  .centerDiv{
+    flex-direction: column;
+    height: 320px;
+    width: 600px;
+  }
+
+  .leftName{
+    font-size: 2.5rem;
+    line-height: 2.9rem;
+  }
+
+  .rightDesc{
+    font-size: 1.2rem;
+    width: 70%;
+  }
+
+
+  /* season 2 */
+
+  .season2{
+     top: 50px;
+  }
+  
+}
+
+
+@media only screen and (max-width: 700px) {
+  .how1, .how2{
+    height: 260px;
+    width: 210px;
+  }
+
+  .stepOne{
+    left: 30px;
+  }
+  
+  .stepTwo{
+    right: 30px;
+  }
+
+  .rules{
+    grid-template-columns: auto;
+  }
+
+  /* rewards */
+
+  .rewardsImages{
+    grid-template-columns: auto auto;
+  }
+
+  .win{
+    height: 215px;
+    width: 215px;
+    margin: 15px;
+  }
+
+  /* supporters */
+
+  .supportersDesc{
+    position: relative;
+    margin-top: 20px;
+    width: 400px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .sponsor{
+    margin-top: 25px;
+  }
+
+  .sponsor1{
+    height: 70px;
+    width: 240px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* footer */
+
+
+  /* season 2 */
+
+  .centerDiv{
+    flex-direction: column;
+    height: 320px;
+    width: 450px;
+  }
+
+  .leftName{
+    font-size: 2.5rem;
+    line-height: 2.9rem;
+  }
+
+  .rightDesc{
+    font-size: 1.2rem;
+    width: 80%;
+  }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .judge1, .judge2{
+    width: 500px;
+  }
+
+  .judgeOne, .judgeTwo{
+    width: 180px;
+    border-radius: 180px;
+  }
+
+  .judge2{
+    bottom: 70px;
+  }
+
+  .judgeDetails1{
+    right: 60px;
+    bottom: 30px;
+  }
+  
+  .judgeDetails2{
+    left: 60px;
+    top: 30px;
+  }
+
+  .meet{
+    font-size: 2.2rem;
+  }
+
+
+  .new1, .new2, .new3, .new4, .new5{
+    position: relative;
+    height: 330px;
+    width: 230px;
+    background-color: thistle;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+  }
+
+  
+.new1{
+  background-color: #dcb43d;
+}
+
+.new2{
+  background-color: #95afc0;
+  top: 80px;
+}
+
+.new3{
+  background-color: #F6C9B5;
+  bottom: 0;
+}
+
+.new4{
+  background-color: #599092;
+  top: 80px;
+}
+
+.new5{
+  background-color: #b484a3;
+  bottom: 0;
+}
+
+.how{
+  margin-top: 50px;
+}
+
+.step1{
+  flex-direction: column;
+}
+
+.step2{
+  flex-direction: column-reverse;
+  margin-top: 40px;
+}
+
+.stepOne, .stepTwo{
+  margin-top: 60px;
+}
+
+.stepTwo{
+  left: 26px;
+}
+
+  /* highlight video */
+
+  .highlightVideo{
+    width: 400px;
+    height: 230px;
+  }
+
+  /* supporters */
+
+  .supporterImage{
+    height: 210px;
+    width: 160px;
+  }
+
+    /* sponsors */
+
+    .sponsor1{
+      height: 50px;
+      width: 180px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+    }
+
+
+
+/* footer */
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+  .judge1, .judge2{
+    width: 400px;
+  }
+
+  .judgeOne, .judgeTwo{
+    width: 180px;
+    border-radius: 180px;
+  }
+
+  .judge2{
+    bottom: 70px;
+  }
+
+  .judgeDetails1{
+    right: 20px;
+    bottom: 30px;
+  }
+  
+  .judgeDetails2{
+    left: 20px;
+    top: 30px;
+  }
+
+  .judgeName{
+    font-size: 1.3rem;
+  }
+
+  /* rewards */
+
+
+  .win{
+    height: 200px;
+    width: 200px;
+    margin: 7px;
+  }
+
+
+
+  .new1, .new2, .new3, .new4, .new5{
+    height: 290px;
+    width: 190px;
+    margin: 4px;
+    border-radius: 20px;
+  }
+
+  .new1 div, .new2 div, .new3 div, .new4 div, .new5 div{
+    font-family: 'Bitter', serif;
+    font-size: 1.2rem;
+    margin-top: 35px;
+  }
+
+  .newImage{
+    height: 150px;
+    width: 170px;
+    bottom: 20px;
+  }
+
+    /* highlight video */
+
+    .highlightVideo{
+      width: 350px;
+      height: 200px;
+    }
+
+    /* supporters */
+
+  .supportersDesc{
+    position: relative;
+    margin-top: 20px;
+    width: 350px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+    /* sponsors */
+
+    /* season 2 */
+
+
+    .centerDiv{
+      flex-direction: column;
+      height: 240px;
+      width: 380px;
+    }
+  
+    .leftName{
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+  
+    .rightDesc{
+      font-size: 1rem;
+      width: 90%;
+      line-height: 1.5rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 450px) {
+
+  .rewardsImages{
+    grid-template-columns: auto;
+  }
+
+  .win{
+    height: 270px;
+    width: 270px;
+    margin: 7px;
+  }
+
+  .sponsor1{
+    height: 60px;
+    width: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .judge1, .judge2{
+    width: 300px;
+  }
+
+  .judgeOne, .judgeTwo{
+    width: 140px;
+    border-radius: 180px;
+  }
+
+  .judge2{
+    bottom: 70px;
+  }
+
+  .judgeDetails1{
+    right: 0px;
+    bottom: 30px;
+  }
+  
+  .judgeDetails2{
+    left: 0px;
+    top: 30px;
+  }
+
+  .judgeName{
+    font-size: 1.2rem;
+  }
+
+
+  .new1, .new2, .new3, .new4, .new5{
+    height: 275px;
+    width: 175px;
+    margin: 3px;
+  }
+
+  .new1 div, .new2 div, .new3 div, .new4 div, .new5 div{
+    font-family: 'Bitter', serif;
+    font-size: 1.1rem;
+    margin-top: 35px;
+  }
+
+  .newImage{
+    height: 150px;
+    width: 150px;
+    bottom: 20px;
+  }
+
+
+  /* season 2 */
+
+  .centerDiv{
+    flex-direction: column;
+    height: 220px;
+    width: 350px;
+  }
+
+  .leftName{
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+
+  .rightDesc{
+    font-size: 1rem;
+    width: 90%;
+  }
+
+  
+  .sponsor1{
+    height: 60px;
+    width: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+
+}
