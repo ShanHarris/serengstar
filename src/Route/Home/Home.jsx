@@ -116,7 +116,7 @@ const Home = () => {
         <div className={classes.judge2}>
        <div className={classes.judgeDetails2}>
             <div className={classes.judgeName}>Reveal Soon</div>
-            <div>Santhali Singer</div>
+            <div>Mundari Singer</div>
           </div>
         <video
             className={classes.judgeTwo}
